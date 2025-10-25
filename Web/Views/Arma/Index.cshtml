@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Application.DTOs.ArmaDTO>
+
+@{
+	ViewData["Title"] = "Lista de Armas";
+}
+
+<div class="container mt-4">
+	<h2 class="mb-4 text-center">Armas</h2>
+
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary mb-3">
+        ← Voltar ao Menu
+    </a>
+
+	<div class="row">
+        @foreach (var arma in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@arma.ImagemUrl" class="card-img-top" alt="@arma.Nome" style="height:200px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@arma.Nome</h5>
+                        <p class="card-text"><strong>Tipo:</strong> @arma.Tipo</p>
+                        <p class="card-text"><strong>Descrição:</strong> @arma.Descricao</p>
+                        <a asp-action="Detalhes" asp-route-id="@arma.Id" class="btn btn-primary w-100">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "CS Guide";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-4 mb-3 titulo">Bem-vindo ao CS Guide</h1>
+    <p class="lead mb-5">Explore o universo de Counter-Strike!</p>
+
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm border-0">
+                <img src="~/assets/armas/LogoArmas.png" class="card-img-top" alt="Armas" />
+                <div class="card-body">
+                    <h5 class="card-title">Armas</h5>
+                    <p class="card-text">Veja todas as armas disponíveis no Counter-Strike, com detalhes de dano, tipo e preço.</p>
+                    <a asp-controller="Arma" asp-action="Index" class="btn btn-primary w-100">Explorar Armas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-sm border-0">
+                <img src="~/assets/mapas/LogoMapas.png" class="card-img-top" alt="Mapas" />
+                <div class="card-body">
+                    <h5 class="card-title">Mapas</h5>
+                    <p class="card-text">Conheça os principais mapas, localizações e descrições dos cenários de jogo.</p>
+                    <a asp-controller="Mapa" asp-action="Index" class="btn btn-primary w-100">Explorar Mapas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

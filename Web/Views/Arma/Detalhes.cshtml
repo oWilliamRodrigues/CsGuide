@@ -1,0 +1,30 @@
+﻿@model Application.DTOs.ArmaDTO
+
+@{
+	ViewData["Title"] = "Detalhes da Arma";
+}
+
+<div class="container mt-4">
+	<a asp-controller="Arma" asp-action="Index" class="btn btn-secondary mb-3">
+		← Voltar à Lista de Armas
+	</a>
+
+	<div class="card shadow">
+		<div class="row g-0">
+			<div class="col-md-5">
+				<img src="@Model.ImagemUrl" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="@Model.Nome">
+			</div>
+			<div class="col-md-7">
+				<div class="card-body">
+					<h2 class="card-title">@Model.Nome</h2>
+					<p class="card-text"><strong>Tipo:</strong> @Model.Tipo</p>
+					<p class="card-text"><strong>Dano:</strong> @Model.Dano</p>
+					<p class="card-text"><strong>Precisão:</strong> @Model.Precisao</p>
+					<p class="card-text"><strong>Cadência:</strong> @Model.Cadencia</p>
+					<p class="card-text"><strong>Preço:</strong> $@Model.Preco</p>
+					<p class="card-text"><strong>Descrição:</strong> @Model.Descricao</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

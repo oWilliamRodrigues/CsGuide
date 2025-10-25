@@ -1,0 +1,15 @@
+D:\Código\CsGuide\Infra\bin\Debug\net10.0\Infra.deps.json
+D:\Código\CsGuide\Infra\bin\Debug\net10.0\Infra.dll
+D:\Código\CsGuide\Infra\bin\Debug\net10.0\Infra.pdb
+D:\Código\CsGuide\Infra\bin\Debug\net10.0\Domain.dll
+D:\Código\CsGuide\Infra\bin\Debug\net10.0\Domain.pdb
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\Infra.csproj.AssemblyReference.cache
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\Infra.AssemblyInfoInputs.cache
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\Infra.AssemblyInfo.cs
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\Infra.csproj.CoreCompileInputs.cache
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\Infra.csproj.Up2Date
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\Infra.dll
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\refint\Infra.dll
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\Infra.pdb
+D:\Código\CsGuide\Infra\obj\Debug\net10.0\ref\Infra.dll

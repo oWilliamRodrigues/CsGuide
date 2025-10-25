@@ -1,0 +1,29 @@
+﻿@model Application.DTOs.MapaDTO
+
+@{
+	ViewData["Title"] = "Detalhes da Mapa";
+}
+
+<div class="container mt-4">
+	<a asp-controller="Mapa" asp-action="Index" class="btn btn-secondary mb-3">
+		← Voltar à Lista de Mapas
+	</a>
+
+	<div class="card shadow">
+		<div class="row g-0">
+			<div class="col-md-5">
+				<img src="@Model.ImagemUrl" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="@Model.Nome">
+			</div>
+			<div class="col-md-7">
+				<div class="card-body">
+					<h2>@Model.Nome</h2>
+					<p><strong>Localizacao:</strong> @Model.Localizacao</p>
+					<p><strong>Tamanho:</strong> @Model.Tamanho</p>
+					<p><strong>Layout:</strong> @Model.Layout</p>
+					<p><strong>Lado Favorito:</strong> @Model.LadoFavorito</p>
+					<p><strong>Descrição:</strong> @Model.Descricao</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
