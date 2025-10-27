@@ -1,3 +1,5 @@
+<img width="1868" height="926" alt="image" src="https://github.com/user-attachments/assets/ebae31b1-1a3d-42ff-b1bd-39d41d74fe92" />
+
 # 🎯 CS Guide
 
 Aplicação web desenvolvida em **ASP.NET Core MVC** com foco em apresentar informações detalhadas sobre **armas e mapas competitivos** de Counter-Strike 2 (CS2).
